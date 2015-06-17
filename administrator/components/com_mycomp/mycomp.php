@@ -1,4 +1,4 @@
 <?php
 defined('_JEXEC') or die;
 
-echo "<h2>Welcome to my Administrator Component</h2>";
+echo JText::_('COM_MYCOMP_WELCOME');

@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="component" version="3.4.1" method="upgrade">
 	<name>com_mycomp</name>
-	<author>Aphikrit</author>
-	<version>1.0.8</version>
+	<author>Aphikrit Saravasri</author>
+	<version>1.1.0</version>
 	<creationDate>June 2015</creationDate>
-	<description>This is my comp</description>
+	<description>COM_MYCOMP_DESC</description>
 	<files folder="components/com_mycomp">
 		<filename>mycomp.php</filename>
 		<filename>index.html</filename>
 	</files>
+	<languages folder="language/en-GB">
+			<language tag="en-GB">en-GB.com_mycomp.ini</language>
+	</languages>
 	<administration>
-		<menu link='index.php?option=com_mycomp'>My Component</menu>
 		<files folder="administrator/components/com_mycomp">
 			<filename>mycomp.php</filename>
 			<filename>index.html</filename>
 		</files>
+	<languages folder="administrator/language/en-GB">
+		<language tag="en-GB">en-GB.com_mycomp.sys.ini</language>
+		<language tag="en-GB">en-GB.com_mycomp.ini</language>
+	</languages>
+	<menu link='index.php?option=com_mycomp'>COM_MYCOMP_MENU</menu>
 	</administration>
+	
 	
 </extension>
