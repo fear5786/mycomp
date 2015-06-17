@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" version="3.4.1" method="upgrade">
+	<name>com_mycomp</name>
+	<author>Aphikrit</author>
+	<version>1.0.5</version>
+	<creationDate>June 2015</creationDate>
+	<description>This is my comp</description>
+	<files folder="components/com_mycomp">
+		<filename>mycomp.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<administration>
+		<files folder="administrator/components/com_mycomp">
+			<filename>mycomp.php</filename>
+			<filename>index.html</filename>
+		</files>
+	</administration>
+	<menu link="option=com_mycomp">My Component
+	</menu>
+</extension>
