@@ -12,7 +12,9 @@ class MyCompController extends JControllerAdmin{
 	}
 
 	function delete(){
+		$app=JFactory::getApplication();
 		$id=JRequest::getVar('id');
 		echo "You want to delete $id";
+		$app->close();
 	}
 }
