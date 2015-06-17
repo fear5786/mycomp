@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="component" version="3.4.1" method="upgrade">
-	<name>com_mycomp</name>
+	<name>COM_MYCOMP</name>
 	<author>Aphikrit Saravasri</author>
 	<version>1.1.0</version>
 	<creationDate>June 2015</creationDate>
@@ -8,6 +8,7 @@
 	<files folder="components/com_mycomp">
 		<filename>mycomp.php</filename>
 		<filename>index.html</filename>
+		<filename>controller.php</filename>
 	</files>
 	<languages folder="language/en-GB">
 			<language tag="en-GB">en-GB.com_mycomp.ini</language>
@@ -23,6 +24,4 @@
 	</languages>
 	<menu link='index.php?option=com_mycomp'>COM_MYCOMP_MENU</menu>
 	</administration>
-	
-	
 </extension>
