@@ -5,6 +5,12 @@
 	<version>1.1.0</version>
 	<creationDate>June 2015</creationDate>
 	<description>COM_MYCOMP_DESC</description>
+	<media destination="com_mycomp" folder="media">
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<filename>index.html</filename>
+	</media>
 	<files folder="components/com_mycomp">
 		<filename>mycomp.php</filename>
 		<filename>index.html</filename>
@@ -23,6 +29,11 @@
 		<language tag="en-GB">en-GB.com_mycomp.sys.ini</language>
 		<language tag="en-GB">en-GB.com_mycomp.ini</language>
 	</languages>
-	<menu link='index.php?option=com_mycomp'>COM_MYCOMP_MENU</menu>
+	<menu link='index.php?option=com_mycomp' img="/media/com_mycomp/images/com_mycomp_icon.png">COM_MYCOMP_MENU</menu>
+		<submenu>
+			<menu link="option=com_mycomp&amp;task=create" img="/media/com_mycomp/images/com_mycomp_icon_create.png">COM_MYCOMP_MENU_CREATE</menu>
+			<menu link="option=com_mycomp&amp;task=listtask" img="/media/com_mycomp/images/com_mycomp_icon_list.png">COM_MYCOMP_MENU_LIST_TASKS</menu>
+			<menu link="option=com_mycomp&amp;task=help" img="/media/com_mycomp/images/com_mycomp_icon_help.png">COM_MYCOMP_MENU_HELP</menu>
+		</submenu>
 	</administration>
 </extension>
