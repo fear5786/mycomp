@@ -3,7 +3,7 @@ Author Aphikrit Saravasri
 # My Component 
 These code was developed on Joomla Version 3.4.1
 
-These code was follow the Joomla 2.5 Custom Component Development tutorial EP1-13 by Biswarup Adhikari
+and follow the Joomla 2.5 Custom Component Development tutorial EP1-13 by Biswarup Adhikari
 
 tutorial links video: https://www.youtube.com/playlist?list=PL7kkxuLFYIDOrj395REpd0golrCV7XLcY
 
