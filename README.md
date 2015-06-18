@@ -1,5 +1,5 @@
 Author Aphikrit Saravasri
-Date JUNE 2015
+<br />Date JUNE 2015
 # My Component 
 These code was developed on Joomla Version 3.4.1
 
