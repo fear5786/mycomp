@@ -1,6 +1,7 @@
-# mycomp 
-# author Aphikrit Saravasri
-# These code was developed on Joomla Version 3.4.1
+Author Aphikrit Saravasri
+Date JUNE 2015
+# My Component 
+These code was developed on Joomla Version 3.4.1
 
 These code was follow the Joomla 2.5 Custom Component Development tutorial EP1-13 by Biswarup Adhikari
 
