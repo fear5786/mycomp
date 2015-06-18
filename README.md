@@ -1,7 +1,7 @@
 Author Aphikrit Saravasri
 <br />Date JUNE 2015
 # My Component 
-These code was developed on Joomla Version 3.4.1
+These code was developed on Joomla Version 3.4.1 (work perfectly)
 
 and follow the Joomla 2.5 Custom Component Development tutorial EP1-13 by Biswarup Adhikari
 
