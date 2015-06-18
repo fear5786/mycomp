@@ -10,7 +10,7 @@ tutorial links video: https://www.youtube.com/playlist?list=PL7kkxuLFYIDOrj395RE
 To Test the function
 input function name to the task for testing.
 and
-input a number to id for specific the array index, or inout 0orNONE to select All of the variable(SELECT*)
+input a number to id for specific the array index, or input 0orNONE to select All of the variable(SELECT*)
 
 http://localhost/_FOLDERNAME_/administrator/index.php?option=com_mycomp&task=_FUNCTION_NAME&id=_NUMBER_
 
